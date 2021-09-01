@@ -1,0 +1,356 @@
+/* PC */
+@media ( min-width: 1024px )  { 
+    .pd-28 {
+        padding: 28px;
+    }
+    .mt-20 {
+        margin-top: 20px;
+    }
+    .mt-35 {
+        margin-top: 35px;
+    }
+    .mt-50 {
+        margin-top: 50px;
+    }
+    .mt-56 {
+        margin-top: 56px;
+    }
+    .mb-8 {
+        margin-bottom: 8px;
+    }
+    .mb-16 {
+        margin-bottom: 16px;
+    }
+    .mb-20 {
+        margin-bottom: 20px;
+    }
+    .mb-42 {
+        margin-bottom: 42px;
+    }
+    .mb-56 {
+        margin-bottom: 56px;
+    }
+
+    .btn-navbar,
+    .btn-navbar-container {
+        display: none;
+
+    }
+
+    #input-active {
+        display: none;
+    }
+}
+
+/* tablet */
+
+@media ( max-width: 1023px )  and ( min-width: 740px) {
+    /* chung */
+    .display-none-t {
+        display: none;
+    }
+    .mt-20-t {
+        margin-top: 20px;
+    }
+    .mt-32-t {
+        margin-top: 32px;
+    }
+    .mt-35-t {
+        margin-top: 36px;
+    }
+    .mt-50-t {
+        margin-top: 50px;
+    }
+    .mb-12-t {
+        margin-bottom: 12px;
+    }
+    .mb-16-t {
+        margin-bottom: 16px;
+    }
+    .mb-20-t { 
+        margin-bottom: 20px;
+    }
+    .pdx-15{
+        padding: 0 15px;
+    }
+    
+    .c-0-t {
+        display: none;
+    }
+    .c-2_5-t {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .c-3-t {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+    .c-5-t {
+        flex: 0 0 50%;
+    max-width: 50%;
+    }
+    
+    .header {
+        
+        padding: 0 20px;
+    }
+
+    .header-right {
+        display: none;
+    }
+    
+    .header-menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+    }
+    .header-menu-icon {
+        color: var(--text-color-header);
+        font-size: 1.8rem;
+        display: block;
+    }
+    .introduce-content-text {
+        display: none;
+    }
+    .btn-navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .btn-navbar-icon {
+        font-size: 3rem;
+
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .product-4-item {
+        display: flex;
+    }
+
+    .product-navslider::after {
+        content: "";
+        position: absolute;
+        background: rgb(234, 234, 234);
+        display: block;
+        height: 2px;
+        width: 60%;
+        top: 50%;
+        right: 15%;
+    }
+    .brand-img-item {
+        width: 100%;
+    }
+    .product-3-heading {
+        padding-top: 30px;
+        padding-bottom: 8px;
+    }
+    .footer-top {
+        padding: 60px 20px;
+    }
+    .footer-bottom {
+        padding: 32px 20px;
+    }
+    .footer-top-list {
+        margin-top: 8px;
+    }
+    .product-1-item:hover .product-1-hover {
+        opacity: 1;
+        bottom: 0;
+        transition: all 0.5s ease !important;
+        animation: none;
+        
+    }
+    .menu-left-list {
+        display: block;
+        left: 0;
+        position: absolute;
+        top: 0;
+    }
+    .menu-left {
+        display: none;
+    }
+    #input-active:checked ~ .menu-left {
+        display: block;
+    }
+    #input-active  {
+        display: none;
+    }
+}
+
+/* mobile */
+@media ( max-width: 739px )  {  
+    .display-none-m {
+        display: none;
+    }
+    .c-0-m {
+        display: none;
+    }
+    .c-2_5-m {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .c-3-m {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+    .c-5-m {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .c-ful-m {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .pdx-15{
+        padding: 0 15px;
+    }
+    .mt-8-m {
+        margin-top: 8px;
+    }
+    .mt-35-m {
+        margin-top: 35px;
+    }
+    .mt-32-m {
+        margin-top: 32px;
+    }
+    .mb-16-m {
+        margin-bottom: 16px;
+    }
+    .mb-32-m {
+        margin-bottom: 32px;
+    }
+    .mb-50-m {
+        margin-bottom: 50px;
+    }
+
+
+    .header {
+        
+        padding: 0 20px;
+    }
+
+    .header-right {
+        display: none;
+    }
+    
+    .header-menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+    }
+    .header-menu-icon {
+        color: var(--text-color-header);
+        font-size: 1.8rem;
+        display: block;
+    }
+    .introduce-content-text {
+        display: none;
+    }
+    .btn-navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .btn-navbar-icon {
+        font-size: 3rem;
+
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .product-4-item {
+        display: flex;
+    }
+
+    .product-navslider::after {
+    content: "";
+    position: absolute;
+    background: rgb(234, 234, 234);
+    display: block;
+    height: 2px;
+    width: 45%;
+    top: 50%;
+    right: 25%;
+    }
+    .brand-img-item {
+        width: 100%;
+    }
+    .product-3-heading {
+        padding-top: 30px;
+        padding-bottom: 8px;
+    }
+    .footer-top {
+        padding: 60px 20px;
+    }
+    .footer-bottom {
+        padding: 32px 20px;
+    }
+    .footer-top-list {
+        margin-top: 8px;
+    }
+    .product-1-item:hover .product-1-hover {
+        opacity: 1;
+        bottom: 0;
+        transition: all 0.5s ease !important;
+        animation: none;
+        
+    }
+    .menu-left-list {
+        display: block;
+        left: 0;
+        position: absolute;
+        top: 0;
+    }
+    .menu-left {
+        display: none;
+    }
+    #input-active:checked ~ .menu-left {
+        display: block;
+    }
+    #input-active  {
+        display: none;
+    }
+    .introduce-content {
+        justify-content: center;
+    }
+    .introduce-icon {
+        margin: 0;
+    }
+    .nav-tab--link {
+        font-size: 1.4rem;
+    }
+    .product-2-img-item {
+        width: 100%;
+    }
+    .endow-img {
+        width: 100%;
+    }
+    .product-4-heading {
+        font-size: 1.4rem;
+    }
+    .product-3-heading{
+        font-size: 1.4rem;
+    }
+    .btn-navbar-container {
+        font-size: 1.8rem;
+    }
+}

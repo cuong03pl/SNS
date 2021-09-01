@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --white-color : #fff;
+    --text-color : #333; 
+    --text-color-header :#888;
+    --a-color: #e34444;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+button {
+    cursor: pointer;
+}
+html { 
+    
+    font-size: 62.5%; 
+    
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.grid {
+    width: 100%;
+    padding: 0;
+    display: block;
+}
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* _ la dau , */
+.c-1_1 {
+    flex: 0 0 11.1111%;
+    max-width: 11.1111%;
+}
+.c-1_6 {
+    flex: 0 0 16.6667%;
+    max-width: 16.6667%;
+}
+.c-2 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.c-2_5 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.c-3 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+.c-5 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.c-6 {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+}
+.c-full {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.pd-0 {
+    padding: 0;
+}
+
+.relative {
+    position: relative;
+}
+.static {
+    position: static !important;
+}
+.bettwen {
+    display: flex;
+    justify-content: space-between;
+}
+.flex {
+    display: flex;
+}
+.border-right {
+    border-right: 1px solid #ccc;
+}
+.border-left {
+    border-left: 1px solid #ccc;
+}
